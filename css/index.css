@@ -1,5 +1,9 @@
 header {
+  display: flex;
+  justify-content: space-between;
   background-color: #7c5e99;
+  border-bottom: 10px solid #000000;
+  padding: 20px 10px;
 }
 
 nav {
@@ -39,8 +43,9 @@ a::after {
 #button {
   display: inline-block;
   background-color: #f25a70;
-  height: 60px;
-  line-height: 60px;
+  /* height: 60px;
+  line-height: 60px; */
   padding: 18px 20px;
   box-shadow: 5px 5px 0px #000000;
+  margin-right: 0;
 }
