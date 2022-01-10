@@ -2,7 +2,13 @@ header {
   background-color: #7c5e99;
 }
 
+nav {
+  text-align: right;
+}
+
 a {
+  display: inline-flex;
+  align-items: center;
   color: #fff;
   font-size: 20px;
   font-family: "Fira Code", Arial, Helvetica, sans-serif;
@@ -11,12 +17,30 @@ a {
   margin-right: 30px;
 }
 
+a:before {
+  content: "";
+  display: inline-block;
+  background-color: #f25a70;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+span {
+  display: inline-block;
+  background-color: #f25a70;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+a::after {
+}
+
 #button {
   display: inline-block;
   background-color: #f25a70;
   height: 60px;
   line-height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 18px 20px;
   box-shadow: 5px 5px 0px #000000;
 }
