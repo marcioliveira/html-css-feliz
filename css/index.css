@@ -1,9 +1,16 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #7c5e99;
+  align-items: center;
+  background-color: #003f63;
   border-bottom: 10px solid #000000;
   padding: 20px 10px;
+}
+
+h1 {
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+  text-shadow: 5px 5px 0px #000000;
 }
 
 nav {
@@ -24,7 +31,7 @@ a {
 a:before {
   content: "";
   display: inline-block;
-  background-color: #f25a70;
+  background-color: #960f14;
   width: 10px;
   height: 10px;
   margin-right: 10px;
@@ -32,17 +39,15 @@ a:before {
 
 span {
   display: inline-block;
-  background-color: #f25a70;
+  background-color: #960f14;
   width: 10px;
   height: 10px;
   margin-right: 10px;
 }
-a::after {
-}
 
 #button {
   display: inline-block;
-  background-color: #f25a70;
+  background-color: #960f14;
   /* height: 60px;
   line-height: 60px; */
   padding: 18px 20px;
